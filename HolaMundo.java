@@ -123,28 +123,6 @@ public class HolaMundo {
             int j = miArreglo[i];
             System.out.println("miArreglo["+i+"]" +j);
         }
-        System.out.println("########## ivision ##########");
-        
-        KeyboardInput in = new KeyboardInput();
-        for (int i = 0; i < 10; i++){
-            System.out.println("Escriba un digito: ");
-            int n = in.readInteger();
-            if (n == 0){
-                System.out.println("Division entre 0");
-                continue;
-            }
-            System.out.println("100/" + n + " = " + 100.0/n);
-        }
-        
-        System.out.println("########## While ##########");
-        while (true) {
-            System.out.println("Escriba un digito: ");
-            int n = in.readInteger();
-            if (n == 5) {
-                System.out.println("Escribio un 5. Termna");
-                break;
-            }
-        }
         
     }
     
